@@ -1071,7 +1071,7 @@ export default class DatePicker extends React.Component {
       }
 
       return (
-        <div>
+        <div className="react-datepicker-wrapper">
           {this.renderInputContainer()}
           {portalContainer}
         </div>
